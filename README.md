@@ -10,6 +10,7 @@ of people that can book the vacation)
 5. view all its listed vacation packages (with status: BOOKED, NOT_BOOKED,
 IN_PROGRESS)
 6. delete vacation destination </br> 
+
 The Regular User should be able to:
 1. register on the platform using some credentials (username/email - unique &
 password)
@@ -18,10 +19,12 @@ password)
 4. filter vacation packages by destination/price/period
 5. book a vacation
 6. view all its booked vacations </br> 
+
 Note: Each vacation package has a limit of people that can book the trip. When
 someone books the trip, you should keep track of the number of people who booked
 a vacation, so that if the maximum number of people who can book that vacation is
 reached, another user will not be able to see that vacation anymore in the platform. </br> 
+
 Note2: When displaying a vacation to the Travelling Agency, a status will be shown,
 based on the number of people who booked that vacation, such as:
 * NOT_BOOKED: nobody booked that vacation yet
